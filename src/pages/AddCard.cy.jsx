@@ -65,7 +65,7 @@ describe('<AddCard />', () => {
 
     cy.get('.notice-success')
       .should('be.visible')
-      .and('have.text', 'Cartão cadastrado com suceço!')
+      .and('have.text', 'Cartão cadastrado com sucesso!')
   })
 
   it('Deve cadastrar um novo cartão de crédito', () => {
